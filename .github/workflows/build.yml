@@ -16,7 +16,7 @@ jobs:
       with:
         go-version-file: go.mod
 
-    - name: Build Funnel (if cache doesn't exist)
+    - name: Build Funnel
       run: make build
 
     - name: Upload Funnel binary as artifact
